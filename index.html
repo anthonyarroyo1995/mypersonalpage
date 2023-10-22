@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Add favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+<!-- icon ws -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Portfolio | Codingdev</title>
+</head>
+
+<body>
+    <a href="https://api.whatsapp.com/send?phone=593962749336&text=Hola%20:D" class="btn-wsp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Toño</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Inicio</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">Sobre mi</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Repositorios</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contáctame</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="https://drive.google.com/file/d/1nPVQgD7sM8us0W79GItw1M6S0zPk6ktg/view?usp=share_link" class="btn" download>Descarga mi CV <i class="uil uil-file-alt"></i></a>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>HOLA, MI NOMBRE ES ANTHONY ARROYO</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>Soy <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Graduado de la carrera de ingeniería en sistemas computacionales con
+                            conocimientos intermedio-avanzado en Excel, Word, Power Point,
+                            ensamblaje y mantenimiento de computadores, desarrollo de páginas web
+                            (Html5, CSS, JS), SQL Oracle.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                       
+                        <a href="https://drive.google.com/file/d/1nPVQgD7sM8us0W79GItw1M6S0zPk6ktg/view?usp=share_link" class="btn" download>Descarga mi CV <i class="uil uil-file-alt"></i></a>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><i class="uil uil-instagram"></i></div>
+                        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                        <div class="icon"><i class="uil uil-twitter"></i></div>
+                        <div class="icon"><i class="uil uil-github-alt"></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="css/img/profile.png" alt="avatar">
+                    </div>
+                </div>
+                
+
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>Sobre mí</h3>
+                            <p>Soy Ingeniero en sistemas computacionales, soy una persona autodidacta,
+                                actualmente estoy estudiando diseño gráfico, adquiriendo más conocimientos
+                                en el mundo del desarrollo web en los lenguajes de (Html5, CSS, JS) y con
+                                conocimientos intermedio-avanzado en Excel, Word, Power Point,
+                                ensamblaje y mantenimiento de computadores.
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Diseño gráfico</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Adobe Ilustrator</span>
+                                <span>Photoshop</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Database</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Proyectos - Repositorios</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        
+                        <img src="css/img/farma.png" class="img-fluid" alt="portfolio-img">
+                        <h3>Farmacia la Gasca</h3>
+                        <div class="featured-text-btn">
+                       
+                            <a href="https://anthonyarroyo1995.github.io/lagasca/" class="btn">Click aquí</a>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="project-box">
+                        <img src="css/img/capacit.png" class="img-fluid" alt="portfolio-img">
+                        <h3>Capacitfarma</h3>
+                        <div class="featured-text-btn">
+                       
+                            <a href="https://anthonyarroyo1995.github.io/capacitfarm3/" class="btn">Click aquí</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer" id="contact">
+                <p>Anthony Arroyo</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Inicio</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">Sobre mí</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Repositorios</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contáctame</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <a href="https://www.facebook.com/alerock1995/" target="_blank">
+                    <div class="icon">
+                      <i class="uil uil-facebook"></i>
+                    </div>
+                  </a>
+                  <a href="https://instagram.com/aaac.07?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                    <div class="icon">
+                      <i class="uil uil-instagram"></i>
+                    </div>
+                  </a>
+                  <a href="https://www.linkedin.com/in/anthony-arroyo-1751901b3/" target="_blank">
+                    <div class="icon">
+                      <i class="uil uil-linkedin-alt"></i>
+                    </div>
+                  </a>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">AnthonyDev</a> - Todos los Derechos Reservados.
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
