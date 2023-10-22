@@ -75,7 +75,7 @@ i{
 
 /* ------- BASE -------- */
 body{
-    background: var(--body-color);
+     background-image: linear-gradient(to right, #e7e5e5, #eceaea, #f0eeef, #f5f3f4, #f9f8f9, #f9f8f9, #f9f8f9, #f9f8f9, #f5f3f4, #f0eeef, #eceaea, #e7e5e5);
 }
 .container{
     width: 100%;
@@ -537,7 +537,7 @@ footer{
     align-items: center;
     flex-direction: column;
     row-gap: 30px;
-    background: #F8F8F8;
+      background-image: linear-gradient(to right, #e7e5e5, #eceaea, #f0eeef, #f5f3f4, #f9f8f9, #f9f8f9, #f9f8f9, #f9f8f9, #f5f3f4, #f0eeef, #eceaea, #e7e5e5);
     padding-block: 40px 60px;
 }
 .top-footer p{
